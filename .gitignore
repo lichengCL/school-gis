@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# 输出文件（体积大，不提交）
+output/raster/
+output/campus_heatmap.html
+
+# 个人配置
+.claude/settings.local.json
+CLAUDE.local.md
+
+# 系统
+.DS_Store
+Thumbs.db

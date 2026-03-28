@@ -1,0 +1,7 @@
+folium>=0.15
+numpy
+pandas
+shapely
+geopandas
+rasterio
+scipy

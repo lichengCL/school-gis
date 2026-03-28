@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -c \"import sys,json; d=json.load(sys.stdin); f=d.get('tool_response',{}).get('filePath') or d.get('tool_input',{}).get('file_path',''); print(f)\" | { read -r f; [[ \"$f\" == *.py ]] && ruff format \"$f\" 2>/dev/null; true; }",
+            "timeout": 30,
+            "statusMessage": "Formatting with ruff..."
+          }
+        ]
+      }
+    ]
+  }
+}
