@@ -169,7 +169,7 @@ def create_map(heat_data_noise, time_labels, points_gdf, df):
                 z-index:9999; background:rgba(255,255,255,0.9); padding:10px 24px;
                 border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2);
                 font-family:'Microsoft YaHei',sans-serif;">
-        <h3 style="margin:0; color:#333;">🎓 CUIT 校园"噪音与卷度"时空分布热力图</h3>
+        <h3 style="margin:0; color:#333;">🎓 基于 IDW 插值的 CUIT 校园噪音与人流时空热力图</h3>
         <p style="margin:4px 0 0; font-size:12px; color:#666;">
             基于 IDW 空间插值 | 拖动时间轴查看动态变化 | 绿色=安静 → 红色=嘈杂
         </p>

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-CUIT（成都信息工程大学）校园"噪音与卷度"时空分布热力图 — 基于 IDW 空间插值的 GIS 课程作业项目。
+基于 IDW 插值的 CUIT（成都信息工程大学）校园噪音与人流时空热力图 — GIS 课程作业项目。
 
 ## 运行命令
 
