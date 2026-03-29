@@ -13,6 +13,8 @@ output/campus_heatmap.html
 # 个人配置
 .claude/settings.local.json
 CLAUDE.local.md
+.agents/
+.idea/
 
 # 系统
 .DS_Store
